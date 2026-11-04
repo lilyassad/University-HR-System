@@ -1,4 +1,4 @@
-# University HR Management System (Databases I, Team 20)
+# University HR Management System 
 
 One project: SQL Server database (Milestone 2) plus an ASP.NET Web Forms site (Milestone 3) that uses it.
 
