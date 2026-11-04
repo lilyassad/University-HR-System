@@ -1,0 +1,9 @@
+# Visual Studio / IIS Express
+.vs/
+*.suo
+*.user
+bin/
+obj/
+*.log
+# user uploads created at runtime
+Web/Uploads/

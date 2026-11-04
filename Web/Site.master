@@ -1,0 +1,23 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="SiteMaster" %>
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title>University HR Management System</title>
+    <link href="~/Content/site.css" rel="stylesheet" runat="server" />
+</head>
+<body>
+<form id="form1" runat="server" enctype="multipart/form-data">
+    <div class="topbar">
+        <span class="brand">University HR</span>
+        <asp:Literal ID="litNav" runat="server" />
+        <span class="who">
+            <asp:Label ID="lblWho" runat="server" />
+            <asp:LinkButton ID="lnkLogout" runat="server" OnClick="lnkLogout_Click" Visible="false">Log out</asp:LinkButton>
+        </span>
+    </div>
+    <div class="page">
+        <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+    </div>
+</form>
+</body>
+</html>
